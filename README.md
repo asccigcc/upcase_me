@@ -38,12 +38,12 @@ And done, is working now.
 
 Interested in adding a new feature to the application? Awesome!
 
-First clone the repository
-Write your new feature
-Once your code is passing and re-factored send a pull request
+* First clone the repository
+* Write your new feature
+* Once your code is passing and re-factored send a pull request
 
 
-# LICENSE
+# LICENSE
 
 The MIT License
 

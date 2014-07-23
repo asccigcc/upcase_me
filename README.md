@@ -24,6 +24,16 @@ this detect the app initializer.
 $ nodemon
 ```
 
+# Deploy in heroku
+
+If you need to deploy inside heroku, only need add the websocket function like:
+
+```
+$ heroku labs:enable websockets -a <yourapp>
+```
+
+And done, is working now.
+
 # How to contribute
 
 Interested in adding a new feature to the application? Awesome!

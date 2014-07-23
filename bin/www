@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+var debug = require('debug')('upcase_me');
+var app = require('../app');
+
+app.set('port', process.env.PORT || 3000);
+
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
+
+/* Adding the io socket */
+io = require('socket.io').listen(server, function(){
+  debug('Socket.io started and listen');
+});
+
+
+var socket = require('../server');

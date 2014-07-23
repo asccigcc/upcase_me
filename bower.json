@@ -1,0 +1,23 @@
+{
+  "name": "Upcase-me",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "*",
+    "jquery": "*"
+  },  
+  "authors": [
+    "Pastor <ascci.gcc@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public",
+    "tests"
+  ]
+}

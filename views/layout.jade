@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/vendor/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .container
+      block content
+      .footer
+        p ascci.gcc 2014
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/vendor/jquery.min.js')
+    script(src='/javascripts/main.js')

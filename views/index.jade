@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .jumbotron
+    h1 UpcaseMe
+    h2 If you need to upcase text.
+    p.lead Paste or type your text and look in the output.
+    form
+      .row.marketing
+        .col-lg-6
+          textarea.form-control#input(rows='10', placeholder="Write your text here!")
+        .col-lg-6
+          textarea.form-control#output(rows='10', placeholder='See here your upcase!')
+      button.btn.btn-link#reset(type='reset') Clear all

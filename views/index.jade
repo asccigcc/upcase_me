@@ -3,8 +3,21 @@ extends layout
 block content
   .jumbotron
     h1 Upcase
-    h2 If you need to upcase text.
+    h2 If you need to Upcase or more.
     p.lead Only paste or type your text.
+    ul.nav.nav-pills
+      li.disabled( data-type="upcase" )
+        a(href='#') Upcase
+      li( data-type="downcase" )
+        a(href='#') Downcase
+      li( data-type="capitalize" )
+        a(href='#') Capitalize
+      li( data-type="swapCase" )
+        a(href='#') Swapcase
+      li( data-type="reverse" )
+        a(href='#') Reverse
+      li( data-type="titleize" )
+        a(href='#') Titleize        
     form
       .row.marketing
         .col-lg-6

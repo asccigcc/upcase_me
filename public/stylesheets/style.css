@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #FFF;
 }
 
 /* Custom page footer */
@@ -69,5 +69,5 @@ a {
 
 /* Customize the form */
 textarea {
-    resize: none;    
+    resize: none;
 }

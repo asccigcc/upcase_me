@@ -1,4 +1,9 @@
 // General functions
+var client = new ZeroClipboard($(".copy-button"));
+client.on( "copy", function (event) {
+  var clipboard = event.clipboardData;
+  clipboard.setData( "text/plain" );  
+});
 var method = 'upcase';
 
 var rand = function() {

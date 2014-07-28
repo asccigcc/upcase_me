@@ -7,21 +7,23 @@ block content
     p.lead Only select a option and paste or type your text.
     ul.nav.nav-pills
       li.disabled( data-type="upcase" )
-        a(href='#') Upcase
+        a(href='javascript:void(0)') Upcase
       li( data-type="downcase" )
-        a(href='#') Downcase
+        a(href='javascript:void(0)') Downcase
       li( data-type="capitalize" )
-        a(href='#') Capitalize
+        a(href='javascript:void(0)') Capitalize
       li( data-type="swapCase" )
-        a(href='#') Swapcase
+        a(href='javascript:void(0)') Swapcase
       li( data-type="reverse" )
-        a(href='#') Reverse
+        a(href='javascript:void(0)') Reverse
       li( data-type="titleize" )
-        a(href='#') Titleize
+        a(href='javascript:void(0)') Titleize
     form
       .row.marketing
         .col-lg-6
-          textarea.form-control#input(rows='10', placeholder="Write your text here!")
+          textarea.form-control#input(rows='10', placeholder="Write your text here!", autocomplete="off")
         .col-lg-6
-          textarea.form-control#output(rows='10', placeholder='See here your upcase!')
+          textarea.form-control#output(rows='10', placeholder='See here your upcase!', autocomplete="off")
+          br
+          .btn.btn-success.btn-sm.copy-button( data-clipboard-target="output" ) Copy text
       button.btn.btn-link#reset(type='reset') Clear all

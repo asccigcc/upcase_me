@@ -26,13 +26,21 @@ $ nodemon
 
 # Deploy in heroku
 
-If you need to deploy inside heroku, only need add the websocket function like:
+If you need to deploy inside heroku, only enable websockets:
 
 ```
 $ heroku labs:enable websockets -a <yourapp>
 ```
 
-And done, is working now.
+Then upload app to heroku:
+
+```
+$ git push heroku master
+```
+
+Then check in browser.
+
+
 
 # How to contribute
 

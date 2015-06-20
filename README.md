@@ -2,13 +2,13 @@
 
 
 This is a simple helper to upcase a text in the browser,
-this code is a example to use node.js, express and socket.io.
+this code is an example to use node.js, express and socket.io.
 
 This application is a simple experiment.
 
 ## Installation
 
-First need to clone the repo, next you can enter to the folder
+First need to clone the repo, next, you can enter to the folder
 and run the node install.
 
 ```
